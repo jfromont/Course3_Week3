@@ -2,7 +2,6 @@ setwd("/Users/jfromont/Dropbox/R/CourserA/GitHub/Course3_Week3/")
 getwd()
 list.files()
 library("dplyr")
-library("reshape2")
 
 
 # data extraction
@@ -82,7 +81,7 @@ train <- cbind(subject_train, Y_train, X_train_2)
 DT1 <- rbind(test, train)
 
 
-# add variables with name of activities
+# add variable with name of activities
 
 DT1 <- mutate(DT1, activity_name = ifelse(activity == 1, "WALKING",
                                     ifelse(activity == 2, "WALKING_UPSTAIRS",
