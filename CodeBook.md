@@ -2,331 +2,508 @@
 
 **subject**
 > Number of subject for this study - We have 30 subjects
-> > 1  .Subject 1
-> > 2  .Subject 2
-> > 3  .Subject 3
-> > ...
-> > 28 .Subject 28
-> > 29 .Subject 29
-> > 30 .Subject 30
+```
+ 1  .Subject 1
+ 2  .Subject 2
+ 3  .Subject 3
+ ...
+ 28 .Subject 28
+ 29 .Subject 29
+ 30 .Subject 30
+```
 
 **activity** 
 > Type of activity
-> > 1  .Activity 1
-> > 2  .Activity 2
-> > 3  .Activity 3
-> > 4  .Activity 4
-> > 5  .Activity 5
-> > 6  .Activity 6
+```
+ 1  .Activity 1
+ 2  .Activity 2
+ 3  .Activity 3
+ 4  .Activity 4
+ 5  .Activity 5
+ 6  .Activity 6
+```
 
 **activity_name**
 > Type of activity
-> > WALKING
-> > WALKING_UPSTAIRS
-> > WALKING_DOWNSTAIRS
-> > SITTING
-> > STANDING
-> > LAYING
+```
+ WALKING
+ WALKING_UPSTAIRS
+ WALKING_DOWNSTAIRS
+ SITTING
+ STANDING
+ LAYING
+```
 
 **tBodyAccMeanX**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the body acceleration in the X direction
+ type : float
+```
 
 **tBodyAccMeanY**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the body acceleration in the Y direction
+ type : float
+```
 
 **tBodyAccMeanZ**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the body acceleration in the Z direction
+ type : float
+```
 
 **tBodyAccStdX**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the body acceleration in the X direction
+ type : float
+```
 
 **tBodyAccStdY**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the body acceleration in the Y direction
+ type : float
+```
 
 **tBodyAccStdZ**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the body acceleration in the Z direction
+ type : float
+```
 
 **tGravityAccMeanX**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the gravity acceleration in the X direction
+ type : float
+```
 
 **tGravityAccMeanY**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the gravity acceleration in the Y direction
+ type : float
+```
 
 **tGravityAccMeanZ**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the gravity acceleration in the Z direction
+ type : float
+```
 
 **tGravityAccStdX**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the gravity acceleration in the X direction
+ type : float
+```
 
 **tGravityAccStdY**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the gravity acceleration in the Y direction
+ type : float
+```
 
 **tGravityAccStdZ**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the gravity acceleration in the Z direction
+ type : float
+```
 
 **tBodyAccJerkMeanX**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the body linear acceleration in the X direction
+ type : float
+```
 
 **tBodyAccJerkMeanY**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the body linear acceleration in the Y direction
+ type : float
+```
 
 **tBodyAccJerkMeanZ**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the body linear acceleration in the Z direction
+ type : float
+```
 
 **tBodyAccJerkStdX**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the body linear acceleration in the X direction
+ type : float
+```
 
 **tBodyAccJerkStdY**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the body linear acceleration in the Y direction
+ type : float
+```
 
 **tBodyAccJerkStdZ**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the body linear acceleration in the Z direction
+ type : float
+```
 
 **tBodyGyroMeanX**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the angular velocity in the X direction
+ type : float
+```
 
 **tBodyGyroMeanY**
-> linear acceleration
-> type : float
+```
+ mean of the time for the angular velocity in the Y direction
+ type : float
+```
 
 **tBodyGyroMeanZ**
-> linear acceleration
-> type : float
+```
+ mean of the time for the angular velocity in the Z direction
+ type : float
+```
 
 **tBodyGyroStdX**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the angular velocity in the X direction
+ type : float
+```
 
 **tBodyGyroStdY**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the angular velocity in the Y direction
+ type : float
+```
 
 **tBodyGyroStdZ**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the angular velocity in the Z direction
+ type : float
+```
 
 **tBodyGyroJerkMeanX**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the magnitude of the angular velocity in the X direction
+ type : float
+```
 
 **tBodyGyroJerkMeanY**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the magnitude of the angular velocity in the Y direction
+ type : float
+```
 
 **tBodyGyroJerkMeanZ**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the magnitude of the angular velocity in the Z direction
+ type : float
+```
 
 **tBodyGyroJerkStdX**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time for the magnitude of the angular velocity in the X direction
+ type : float
+```
 
 **tBodyGyroJerkStdY**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the magnitude of the angular velocity in the Y direction
+ type : float
+```
 
 **tBodyGyroJerkStdZ**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the magnitude of the angular velocity in the Z direction
+ type : float
+```
 
 **tBodyAccMagMean**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the magnitude of the acceleration in every direction
+ type : float
+```
 
 **tBodyAccMagStd**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the magnitude of the acceleration in every direction
+ type : float
+```
 
 **tGravityAccMagMean**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the magnitude of the gravity acceleration in every direction
+ type : float
+```
 
 **tGravityAccMagStd**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the magnitude of the gravity acceleration in every direction
+ type : float
+```
 
 **tBodyAccJerkMagMean**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the magnitude of the linear acceleration in every direction
+ type : float
+```
 
 **tBodyAccJerkMagStd**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the magnitude of the linear acceleration in every direction
+ type : float
+```
 
 **tBodyGyroMagMean**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the magnitude of the angular velocity in every direction
+ type : float
+```
 
 **tBodyGyroMagStd**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time domain signal for the magnitude of the angular velocity in every direction
+ type : float
+```
 
 **tBodyGyroJerkMagMean**
-> linear acceleration
-> type : float
+```
+ mean of the time domain signal for the magnitude of the angular velocity in every direction
+ type : float
+```
 
 **tBodyGyroJerkMagStd**
-> linear acceleration
-> type : float
+```
+ standard deviation of the time for the magnitude of the angular velocity in every direction
+ type : float
+```
 
 **fBodyAccMeanX**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal the body acceleration in the X direction
+ type : float
+```
 
 **fBodyAccMeanY**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal the body acceleration in the Y direction
+ type : float
+```
 
 **fBodyAccMeanZ**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal the body acceleration in the Z direction
+ type : float
+```
 
 **fBodyAccStdX**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal the body acceleration in the X direction
+ type : float
+```
 
 **fBodyAccStdY**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal the body acceleration in the Y direction
+ type : float
+```
 
 **fBodyAccStdZ**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal the body acceleration in the Z direction
+ type : float
+```
 
 **fBodyAccmeanFreqX**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the body acceleration in the X direction
+ type : float
+```
 
 **fBodyAccmeanFreqY**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the body acceleration in the Y direction
+ type : float
+```
 
 **fBodyAccmeanFreqZ**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the body acceleration in the Z direction
+ type : float
+```
 
 **fBodyAccJerkMeanX**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the body linear acceleration in the X direction
+ type : float
+```
 
 **fBodyAccJerkMeanY**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the body linear acceleration in the Y direction
+ type : float
+```
 
 **fBodyAccJerkMeanZ**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the body linear acceleration in the Z direction
+ type : float
+```
 
 **fBodyAccJerkStdX**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal for the body linear acceleration in the X direction
+ type : float
+```
 
 **fBodyAccJerkStdY**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal for the body linear acceleration in the Y direction
+ type : float
+```
 
 **fBodyAccJerkStdZ**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal for the body linear acceleration in the Z direction
+ type : float
+```
 
 **fBodyAccJerkmeanFreqX**
-> linear acceleration
-> type : float
+```
+ mean of the frequency of the frequency domain signal for the body linear acceleration in the X direction
+ type : float
+```
 
 **fBodyAccJerkmeanFreqY**
-> linear acceleration
-> type : float
+```
+ mean of the frequency of the frequency domain signal for the body linear acceleration in the Y direction
+ type : float
+```
 
 **fBodyAccJerkmeanFreqZ**
-> linear acceleration
-> type : float
+```
+ mean of the frequency of the frequency domain signal for the body linear acceleration in the Z direction
+ type : float
+```
 
 **fBodyGyroMeanX**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the angular velocity in the X direction
+ type : float
+```
 
 **fBodyGyroMeanY**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the angular velocity in the Y direction
+ type : float
+```
 
 **fBodyGyroMeanZ**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the angular velocity in the Z direction
+ type : float
+```
 
 **fBodyGyroStdX**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal for the angular velocity in the X direction
+ type : float
+```
 
 **fBodyGyroStdY**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal for the angular velocity in the Y direction
+ type : float
+```
 
 **fBodyGyroStdZ**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal for the angular velocity in the Z direction
+ type : float
+```
 
 **fBodyGyromeanFreqX**
-> linear acceleration
-> type : float
+```
+ mean of the frequency of the frequency domain signal for the angular velocity in the X direction
+ type : float
+```
 
 **fBodyGyromeanFreqY**
-> linear acceleration
-> type : float
+```
+ mean of the frequency of the frequency domain signal for the angular velocity in the Y direction
+ type : float
+```
 
 **fBodyGyromeanFreqZ**
-> linear acceleration
-> type : float
+```
+ mean of the frequency of the frequency domain signal for the angular velocity in the Z direction
+ type : float
+```
 
 **fBodyAccMagMean**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the magnitude of the gravity acceleration in every direction
+ type : float
+```
 
 **fBodyAccMagStd**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal for the magnitude of the gravity acceleration in every direction
+ type : float
+```
 
 **fBodyAccMagmeanFreq**
-> linear acceleration
-> type : float
+```
+ mean of the frequency of the frequency domain signal for the magnitude of the gravity acceleration in every direction
+ type : float
+```
 
 **fBodyBodyAccJerkMagMean**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the magnitude of the linear acceleration in every direction
+ type : float
+```
 
 **fBodyBodyAccJerkMagStd**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency domain signal for the magnitude of the linear acceleration in every direction
+ type : float
+```
 
 **fBodyBodyAccJerkMagmeanFreq**
-> linear acceleration
-> type : float
+```
+ standard deviation of the frequency of the frequency domain signal for the magnitude of the linear acceleration
+ type : float
+```
 
 **fBodyBodyGyroMagMean**
-> linear acceleration
-> type : float
+```
+ mean of the frequency domain signal for the magnitude of the linear acceleration in every direction
+ type : float
+```
 
 **fBodyBodyGyroMagStd**
-**fBodyBodyGyroMagmeanFreq**
-**fBodyBodyGyroJerkMagMean**
-**fBodyBodyGyroJerkMagStd**
-**fBodyBodyGyroJerkMagmeanFreq**
+```
+ standard deviation of the frequency domain signal for the magnitude of the linear acceleration in every direction
+ type : float
+```
 
+**fBodyBodyGyroMagmeanFreq**
+```
+ standard deviation of the frequency of the frequency domain signal for the magnitude of the linear acceleration
+ type : float
+```
+
+**fBodyBodyGyroJerkMagMean**
+```
+ mean of the frequency for the magnitude of the angular velocity
+ type : float
+```
+
+**fBodyBodyGyroJerkMagStd**
+```
+ standard deviation of the frequency for the magnitude of the angular velocity
+ type : float
+```
+
+**fBodyBodyGyroJerkMagmeanFreq**
+```
+ mean of the frequency of the frequency for the magnitude of the angular velocity
+ type : float
+```
